@@ -1,9 +1,9 @@
 function greetUser(name) {
-    console.log("Hello, " + name); // Error: 'Name' should be 'name'
+    console.log("Hello, " + name);
 }
  
 function divideNumbers(a, b) {
-    // Incorrect conditional: using assignment instead of comparison
+    
     if (b === 0) {  
         return "Cannot divide by zero";
     }
