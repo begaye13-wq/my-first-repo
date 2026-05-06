@@ -4,11 +4,11 @@ function greetUser(name) {
  
 function divideNumbers(a, b) {
     // Incorrect conditional: using assignment instead of comparison
-    if (b == 0) {  
+    if (b === 0) {  
         return "Cannot divide by zero";
     }
     return a / b;
 }
  
-greetUser=("Alice");
+greetUser("Alice");
 console.log("Division result: " + divideNumbers(10, 0));
